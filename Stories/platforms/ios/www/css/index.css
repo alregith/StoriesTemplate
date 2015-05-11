@@ -1,0 +1,72 @@
+
+/*#indexbody
+{
+    /*background: url("../img/HomeBackground.jpg") no-repeat center center fixed;*/
+    /*background-size: cover;
+    background-color: #2ECCFA;
+}*/
+
+/*h1 {
+    
+    font-family: Consolas, monaco, monospace;
+    font-size:24px;
+    font-weight:bold;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}*/
+
+div[data-role="content"] {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+}
+
+.scrollable {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrollable > * {
+    -webkit-transform: translateZ(0px);
+}
+
+h2 {
+    font-size:18px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+a
+{
+    float:center;
+    text-align:center;
+}
+
+ul
+{
+    float: center;
+    margin: 5px;
+}
+
+ul li
+{
+    float: center;
+}
+
+.Header
+{
+    color:#00BFFF;
+}
+
+div.scroll {
+    background-color: #00FFFF;
+    height: 70%;
+    overflow: scroll;
+}
